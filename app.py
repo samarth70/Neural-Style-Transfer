@@ -7,11 +7,12 @@
 import gradio as gr
 import tensorflow_hub as hub
 import tensorflow as tf
-import os
-from PIL import Image,ImageOps
+# import os
+from PIL import Image
+# ,ImageOps
 import numpy as np
-import time
-import requests   
+# import time
+# import requests   
 import cv2
 
 # !mkdir nstmodel 
@@ -20,7 +21,7 @@ import cv2
 
 # from PIL import Image, ImageOps
 import numpy as np
-import requests
+# import requests
 # import tarfile
 
 # url = "https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz"
