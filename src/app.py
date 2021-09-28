@@ -1,13 +1,13 @@
 '''NEURAL STYLE TRANSFER'''
 
 
-"""##Importing Libraries"""
+"""Importing Libraries"""
 
 
 import gradio as gr
-# import IPython.display as display
-# import matplotlib as mpl
-# import functools
+import IPython.display as display
+import matplotlib as mpl
+import functools
 import tensorflow_hub as hub
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -68,8 +68,6 @@ def save_image(image, filename):
 
 """## Grayscaling image for testing purpose to check if we could get better results."""
 
-import cv2
-
 def gray_scaled(inp_img):
   gray = cv2.cvtColor(inp_img, cv2.COLOR_BGR2GRAY)
   gray_img = np.zeros_like(inp_img)
@@ -103,7 +101,7 @@ def gradio_intrface(mymodel):
   stylizedimg=gr.outputs.Image() 
   gr.Interface(fn=mymodel, inputs= [image1,image2] , outputs= stylizedimg,title='Style Transfer',width=800).launch(share=False,)
 
-"""## The function will be launched both  Inline and Outline  where u need to add a content and style image.
+"""The function will be launched both  Inline and Outline  where u need to add a content and style image.
 
 """
 
