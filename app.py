@@ -7,10 +7,8 @@
 import gradio as gr
 import tensorflow_hub as hub
 import tensorflow as tf
-import matplotlib.pyplot as plt
 import os
-import time
-from PIL import Image
+from PIL import Image,ImageOps
 import numpy as np
 import time
 import requests   
@@ -20,15 +18,15 @@ import cv2
 # !wget -c https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz -O - | tar -xz -C /nstmodel
 # import tensorflow.keras
 
-from PIL import Image, ImageOps
+# from PIL import Image, ImageOps
 import numpy as np
 import requests
-import tarfile
+# import tarfile
 
-url = "https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz"
-response = requests.get(url, stream=True)
-file = tarfile.open(fileobj=response.raw, mode="r|gz")
-file.extractall(path="./nst_model")
+# url = "https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz"
+# response = requests.get(url, stream=True)
+# file = tarfile.open(fileobj=response.raw, mode="r|gz")
+# file.extractall(path="./nst_model")
 
 MODEL_PATH='/nst_model'
 
