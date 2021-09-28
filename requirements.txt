@@ -1,5 +1,5 @@
 gradio
-tensorflow==2.4.0
+tensorflow==2.5.0
 numpy
 #requests==2.23.0
 tensorflow-hub==0.12.0
