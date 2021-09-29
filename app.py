@@ -28,7 +28,7 @@ response = requests.get(url, stream=True)
 file = tarfile.open(fileobj=response.raw, mode="r|gz")
 file.extractall(path="./nst_model")
 
-MODEL_PATH='/nst_model'
+MODEL_PATH='./nst_model'
 
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
