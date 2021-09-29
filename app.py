@@ -20,13 +20,13 @@ import numpy as np
 # import tensorflow.keras
 
 # from PIL import Image, ImageOps
-# import requests
-# import tarfile
+import requests
+import tarfile
 
-# url = "https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz"
-# response = requests.get(url, stream=True)
-# file = tarfile.open(fileobj=response.raw, mode="r|gz")
-# file.extractall(path="./nst_model")
+url = "https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz"
+response = requests.get(url, stream=True)
+file = tarfile.open(fileobj=response.raw, mode="r|gz")
+file.extractall(path="./nst_model")
 
 MODEL_PATH='/nst_model'
 
