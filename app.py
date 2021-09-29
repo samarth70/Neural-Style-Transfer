@@ -14,6 +14,7 @@ import numpy as np
 # import time
 # import requests   
 import cv2
+from cv2 import *
 
 # !mkdir nstmodel 
 # !wget -c https://storage.googleapis.com/tfhub-modules/google/magenta/arbitrary-image-stylization-v1-256/2.tar.gz -O - | tar -xz -C /nstmodel
