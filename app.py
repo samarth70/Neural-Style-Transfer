@@ -8,6 +8,7 @@ import gradio as gr
 # import tensorflow_hub as hub
 import tensorflow as tf
 # import os
+import PIL
 from PIL import Image,ImageOps
 import numpy as np
 # import time
