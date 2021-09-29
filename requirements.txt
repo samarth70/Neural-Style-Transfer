@@ -1,5 +1,6 @@
 gradio
-tensorflow==2.5.0
+tensorflow-cpu
+#tensorflow==2.5.0
 #numpy
 #requests==2.23.0
 #Pillow==7.1.2
