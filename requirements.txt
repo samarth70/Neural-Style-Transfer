@@ -1,7 +1,7 @@
 gradio
 tensorflow-cpu
 #tensorflow==2.5.0
-#numpy
+numpy
 #requests==2.23.0
 Pillow==7.1.2
 #tensorflow-hub==0.12.0
