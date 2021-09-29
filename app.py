@@ -5,7 +5,7 @@
 
 
 import gradio as gr
-import tensorflow_hub as hub
+# import tensorflow_hub as hub
 import tensorflow as tf
 # import os
 from PIL import Image
