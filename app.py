@@ -95,7 +95,7 @@ def gradio_intrface(mymodel):
   image1 = gr.inputs.Image() #CONTENT IMAGE
   image2 = gr.inputs.Image() #STYLE IMAGE
   stylizedimg=gr.outputs.Image() 
-  gr.Interface(fn=mymodel, inputs= [image1,image2] , outputs= stylizedimg,title='Style Transfer',width=800).launch()
+  gr.Interface(fn=mymodel, inputs= [image1,image2] , outputs= stylizedimg,title='Style Transfer').launch()
 
 """The function will be launched both  Inline and Outline  where u need to add a content and style image."""
 
