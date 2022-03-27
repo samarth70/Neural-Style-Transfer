@@ -5,8 +5,12 @@ Neural style transfer is an optimization technique which is used here to take tw
 <!-- ![image](https://github.com/samarth70/Neural-Style-Transfer/blob/main/example.jpg) -->
 ![gif](https://github.com/samarth70/Neural-Style-Transfer/blob/main/styleT-.gif)
 
+
 ## Deployement
 HF Space- https://hf.space/gradioiframe/Sa-m/Neural-Style-Transfer-Image-Stylization/+
+
 Heroku- https://samarth-neural-style-transfer.herokuapp.com/
+
+
 ## References
 Exploring the structure of a real-time, arbitrary neural artistic stylization network. Golnaz Ghiasi, Honglak Lee, Manjunath Kudlur, Vincent Dumoulin, Jonathon Shlens, Proceedings of the British Machine Vision Conference (BMVC), 2017.
